@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GasolinerasPLB</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    <script type="module" src="./src/js/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Gasolineras</h1>
+        <div>
+            <select name="provinces" id="provinces">
+                <option selected disabled>-- Select a province --</option>
+            </select>
+            <select name="municipalties" id="municipalties">
+                <option selected disabled>-- Select a municipality --</option>
+            </select>
+            <select name="products" id="products">
+                <option selected disabled>-- Select a product --</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="openGasStations">
+            <label for="openGasStations">Show open gas stations only</label>
+        </div>
+        <div id="gasStationList" class="card-container"></div>
+        <div id="messageContainer"></div>
+    </main>
+    <footer>
+        <h5 class="dark-text">Patricia Lima &copy; 2024</h5>
+    </footer>
+</body>
+
+</html>
